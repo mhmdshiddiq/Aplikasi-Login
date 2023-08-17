@@ -1,14 +1,5 @@
-/** @module Login-script */
-/**
-
-
-/*
- * Catatan:
- * Gunakan fungsi goToHome() untuk menampilkan halaman home
- * Gunakan fungsi goToLogin() untuk menampilkan halaman login
- * Gunakan fungsi showPopUp() untuk menampilkan pop up error
- */
-
+/** @module Login-Script */
+/** 
 * Membuat variabel loginFormElement untuk tampilan form.
 * @constant {HTMLElement}
 */
@@ -72,4 +63,4 @@ loginFormElement.addEventListener('submit', function(event) {
     showPopUp();
  
   }
-})
+});
